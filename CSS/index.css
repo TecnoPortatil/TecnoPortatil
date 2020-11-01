@@ -164,7 +164,7 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 {
     margin-top: 2%;
 }
-.principal0
+.principal
 {
     margin-top: 2%;
 }
@@ -353,7 +353,7 @@ footer
     margin: 0 auto;*/
 }
 }
-@media screen and (min-width:481px) and (max-width:768px)
+@media screen and (max-width:480px)
 {
 #cuerpo
 {
@@ -379,7 +379,7 @@ span
 }
 .inf
 {
-    width: 18%;
+    width: 15%;
     padding:1%;
 }
 .list
@@ -483,4 +483,3 @@ footer
     margin: 0 auto;*/
 }
 }
-
