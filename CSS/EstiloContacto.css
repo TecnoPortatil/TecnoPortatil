@@ -20,7 +20,7 @@ header
     background-color: #004454;
     color: white;
     border-bottom: 3px solid black;
-    justify-content: space-between;
+    text-align: center;
 }
 img
 {
@@ -36,35 +36,9 @@ p
     text-align: justify;
     color:black;   
 }
-#head-left
-{
-    float: left;
-    line-height: 100px;
-    padding: 1%;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
-}
 #head-left img
 {
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
-{
-    float: right;
-    line-height: 100px;
-    padding: 1%;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
+    width:28%;
 }
 #Column2
 {
@@ -91,6 +65,10 @@ p
     margin-top: 5%;
     margin-bottom: 15%;
 }
+.list
+{
+    display: inline-block;
+}
 .list, .secondlist
 {
     list-style: none;
@@ -102,7 +80,7 @@ p
 .list li a
 {
     display:block;
-    padding:8px 5px 8px 5px;
+    padding:8px 15px 8px 15px;
     justify-content: space-around;
     color: white;
     font-weight: bold;
@@ -158,6 +136,10 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
     margin-left: 2.5%;
     width:61.5%;
 }
+.footer1 p
+{
+    color:white;
+}
 .footer1 img
 {
     width:6%;
@@ -174,13 +156,8 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 }
 .footer2 img
 {
-    width:15%;
-    height: 7.5em;
+    width:60%;
     margin: 0 auto;
-}
-footer p
-{
-    color:white;
 }
 footer
 {
@@ -196,6 +173,10 @@ footer
 #cuerpo
 {
     font-size: 13pt;
+}
+#head-left img
+{
+    width:60%;
 }
 span
 { 
@@ -219,43 +200,6 @@ header
     border-bottom: 3px solid black;
     justify-content: space-around;
     overflow: hidden;
-}
-#head-left
-{
-    float: none;
-    margin-top: 5px;
-    margin-top: 1%;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
-}
-#head-left img
-{
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
-{
-    float: none;
-    margin-top: 5px;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
 }
 #ContactoWha
 {
@@ -281,12 +225,16 @@ footer
     width: 100%;
     float: none;
     padding:0.5%;
-    text-align: center;
+    text-align: justify;
+}
+.footer1 p
+{
+    color:white;
 }
 .footer1 img
 {
-    width:10%;
-    height: 3em;
+    width:7%;
+    height: 2em;
     padding: 0.5%;
     margin: auto;
 }
@@ -300,10 +248,7 @@ footer
 .footer2 img
 {
     margin: auto;
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
+    width:50%;
 }
 }
 @media screen and (min-width:481px) and (max-width:768px)
@@ -311,6 +256,10 @@ footer
     #cuerpo
 {
     font-size: 13pt;
+}
+#head-left img
+{
+    width:50%;
 }
 span
 { 
@@ -322,7 +271,7 @@ span
 }
 .list li a
 {
-    padding:5px 15px 5px 15px;
+    padding:5px 25px 5px 25px;
     justify-content: space-around;
 }
 header
@@ -334,43 +283,6 @@ header
     border-bottom: 3px solid black;
     justify-content: space-around;
     overflow: hidden;
-}
-#head-left
-{
-    float: none;
-    margin-top: 5px;
-    margin-top: 1%;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
-}
-#head-left img
-{
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
-{
-    float: none;
-    margin-top: 8px;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
 }
 #ContactoWha
 {
@@ -396,12 +308,12 @@ footer
     width: 100%;
     float: none;
     padding:0.5%;
-    text-align: center;
+    text-align: justify;
 }
 .footer1 img
 {
-    width:8%;
-    height: 3.2em;
+    width:6.5%;
+    height: 2.5em;
     padding: 0.5%;
     margin: auto;
 }
@@ -415,9 +327,6 @@ footer
 .footer2 img
 {
     margin: auto;
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
+    width: 50%;
 }
 }
