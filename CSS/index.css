@@ -65,8 +65,9 @@ table td
 #head-left
 {
     float: left;
-    line-height: 100px;
     padding: 1%;
+    width: 43%;
+    line-height: 100px;
     /*
     padding:0.5%;
     margin-left: 2.5%;
@@ -76,19 +77,15 @@ table td
 }
 #head-left img
 {
-    /*
-    width: 40%;
-    padding: 5%;
-    
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
+    width:55%;
+    margin: 0 auto;
 }
 #head-right
 {
     float: right;
-    line-height: 100px;
     padding: 1%;
+    width: 53%;
+    line-height: 100px;
     /*
     margin:0.5%;
     width:53%;
@@ -110,6 +107,7 @@ table td
 .list > li
 {
     float: left;    /*AQUI HICE CAMBIOS*/
+    text-align: right;
 }
 .list li a
 {
