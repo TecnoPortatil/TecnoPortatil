@@ -158,8 +158,8 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 }
 .footer1 img
 {
-    width:6%;
-    height: 3.5em;
+    width:5.5%;
+    height: 2.5em;
     padding: 0.5%;
 }
 .footer2
@@ -327,43 +327,6 @@ footer
         border-bottom: 3px solid black;
         justify-content: space-around;
         overflow: hidden;
-    }
-    #head-left
-    {
-        float: none;
-        margin-top: 5px;
-        margin-top: 1%;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-        line-height: normal;
-        /*
-        float: left;
-        padding:0.5%;
-        margin-left: 2.5%;
-        width:40%;
-        height:auto;*/
-    }
-    #head-left img
-    {
-        /*
-        width:15%;
-        height: 7.5em;
-        margin: 0 auto;*/
-    }
-    #head-right
-    {
-        float: none;
-        margin-top: 5px;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-        line-height: normal;
-        /*
-        float: right;
-        margin:0.5%;
-        width:53%;
-        text-align: right;*/
     }
     .list li a:active
     {
