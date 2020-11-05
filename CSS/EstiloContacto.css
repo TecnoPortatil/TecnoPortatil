@@ -12,6 +12,9 @@
     background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
     font-family: sans-serif;
     font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header
 {
@@ -58,12 +61,11 @@ p
 }
 .container
 {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .row
 {
-    margin-top: 5%;
-    margin-bottom: 15%;
+    margin-top: 2%;
 }
 .list
 {
@@ -162,7 +164,7 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 footer
 {
     overflow: hidden;
-    margin-top: 2%;
+    margin-top: auto;
     justify-content: space-between; /*AQUI HICE CAMBIOS*/
     background-color: #004454;
     color: white;
