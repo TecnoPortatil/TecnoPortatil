@@ -9,7 +9,7 @@
 }
 #cuerpo
 {
-    background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
+    background-color: #e4e4e4; /*AQUI HICE CAMBIOS*/
     font-family: sans-serif;
     font-size: 13pt;
     display: flex;
@@ -156,6 +156,7 @@ table
 }
 .footer2
 {
+    display: none;
     float: right;
     padding:0.5%;
     margin-right: 2.5%;
@@ -335,6 +336,7 @@ footer
 }
 .footer2
 {
+    display: none;
     width: 100%;
     float: none;
     padding:0.5%;
