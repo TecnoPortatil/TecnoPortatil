@@ -9,9 +9,12 @@
 }
 #cuerpo
 {
-    background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
+    background-color: #e4e4e4; /*AQUI HICE CAMBIOS*/
     font-family: sans-serif;
     font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header
 {
@@ -20,78 +23,59 @@ header
     background-color: #004454;
     color: white;
     border-bottom: 3px solid black;
-    justify-content: space-between;
+    text-align: center;
 }
 img
 {
     margin: 0 auto;
     width:100%;
-    border-radius: 10%;
 }
-h4
+h2
 {
-    color:black; /*AQUI HICE CAMBIOS*/
+    padding: 1%;/*AQUI VAN CAMBIOS*/
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    color:gold;
 }
-#head-left
+h5
 {
-    float: left;
-    line-height: 100px;
-    padding: 1%;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
+    color: red;
+    font-weight: bold;
+}
+table, table td, table th
+{
+    margin:0 auto;
+    border: 1px solid black;
+    color: white;
+}
+table th
+{
+    padding: 0.5%;
+    background-color: rgb(43, 161, 161);
+}
+table td
+{
+    padding: 0.5%;
+    background-color: rgb(235, 235, 235);
+    color:black;
+}
+#to-main
+{
+    border: 3px dotted black;
+    vertical-align: middle;
+}
+.inf
+{
+    padding-top: 20px;
 }
 #head-left img
-{/*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
 {
-    float: right;
-    line-height: 100px;
-    padding: 1%;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
+    width:28%;
 }
-#Column
+.list
 {
-    margin-top: 1%;
-}
-#Column2
-{
-    margin-top: 3%;
-}
-#firstRow
-{
-    margin-top: 2%;
-    border-top: 2px solid rgb(44, 44, 44);
-}
-#especificaciones
-{
-    margin-top: 4%;
-    padding: 1%;
-    color: black;
-    background-color: #f56f3a; /*AQUI HICE CAMBIOS*/
-}
-.row
-{
-    margin-top: 2%;
-}
-.container
-{
-    margin-top: 2%;
-}
-.desplegable
-{
-    display: none;
+    display: inline-block;
 }
 .list, #secondlist
 {
@@ -101,10 +85,14 @@ h4
 {
     float: left;    /*AQUI HICE CAMBIOS*/
 }
+.list li a:active
+{
+    background-color: brown;
+}
 .list li a
 {
     display:block;
-    padding:8px 5px 8px 5px;
+    padding:8px 15px 8px 15px;
     justify-content: space-around;
     color: white;
     font-weight: bold;
@@ -132,7 +120,7 @@ h4
 {
     display: block;
     text-align: left;
-    background-color: #004454;  /*AQUI HICE CAMBIOS*/
+    background-color: #003c49;  /*AQUI HICE CAMBIOS*/
     border-radius: 25px;
     z-index: 1000;
     line-height: normal;
@@ -145,17 +133,38 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 { 
     overflow: hidden;
 }
-.in-line
+.container
 {
     margin-top: 1%;
-    margin: auto;
-    width:90%;
-    text-align: center;
+    overflow: hidden;
 }
-.ListEspec
+.row
 {
-    list-style: none;
-    padding:0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.principal
+{
+    margin-top: 2%;
+}
+.text-center img
+{
+    width: 50%;
+}
+.carousel-inner img 
+{
+    width: 60%;
+    height: 400px;
+    border-radius: 5%;
+}
+.carousel-inner
+{
+    height: 400px;
+}
+.video
+{
+    margin:0 auto;
+    width: 100%;
 }
 .footer1
 {
@@ -166,8 +175,8 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 }
 .footer1 img
 {
-    width:6%;
-    height: 3.5em;
+    width:5.5%;
+    height: 2.5em;
     padding: 0.5%;
 }
 .footer2
@@ -180,14 +189,13 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 }
 .footer2 img
 {
-    width:15%;
-    height: 7.5em;
+    width:60%;
     margin: 0 auto;
 }
 footer
 {
     overflow: hidden;
-    margin-top: 2%;
+    margin-top: auto;
     justify-content: space-between; /*AQUI HICE CAMBIOS*/
     background-color: #004454;
     color: white;
@@ -199,18 +207,32 @@ footer
 {
     font-size: 13pt;
 }
-#firstRow
+#Column, #to-main
 {
-    margin-top: 4%;
-    border: none;
+    margin-top: 5%;
 }
-#Column2
+#head-left img
 {
-    margin-top: 0;
+    width:60%;
+}
+h5
+{
+    display: none;
 }
 span
-{ 
+{
     display: none;
+}
+#to-main
+{
+    align-content: center;
+    text-align: center;
+    border: none;
+}
+.inf
+{
+    width: 15%;
+    padding:1%;
 }
 .list
 {
@@ -231,52 +253,11 @@ header
     justify-content: space-around;
     overflow: hidden;
 }
-#head-left
-{
-    float: none;
-    margin-top: 5px;
-    margin-top: 1%;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
-}
-#head-left img
-{
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
-{
-    float: none;
-    margin-top: 5px;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
-}
 .list li a:active
 {
     text-decoration: none;
     background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
     border-radius: 50px;
-}
-.in-line
-{
-    width: 85%;
 }
 footer
 {
@@ -292,17 +273,18 @@ footer
     width: 100%;
     float: none;
     padding:0.5%;
-    text-align: center;
+    text-align: justify;
 }
 .footer1 img
 {
-    width:10%;
-    height: 3em;
+    width:7%;
+    height: 2em;
     padding: 0.5%;
     margin: auto;
 }
 .footer2
 {
+    display: none;
     width: 100%;
     float: none;
     padding:0.5%;
@@ -311,10 +293,7 @@ footer
 .footer2 img
 {
     margin: auto;
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
+    width:50%;
 }
 }
 @media screen and (min-width:481px) and (max-width:768px)
@@ -323,18 +302,32 @@ footer
 {
     font-size: 13pt;
 }
-#firstRow
+#Column, #to-main
 {
-    margin-top: 4%;
-    border: none;
+    margin-top: 5%;
 }
-#Column2
+#head-left img
 {
-    margin-top: 0;
+    width:50%;
+}
+h5
+{
+    display: none;
 }
 span
-{ 
+{
     display: none;
+}
+#to-main
+{
+    align-content: center;
+    text-align: center;
+    border: none;
+}
+.inf
+{
+    width: 15%;
+    padding:1%;
 }
 .list
 {
@@ -342,7 +335,7 @@ span
 }
 .list li a
 {
-    padding:5px 15px 5px 15px;
+    padding:5px 25px 5px 25px;
     justify-content: space-around;
 }
 header
@@ -355,52 +348,11 @@ header
     justify-content: space-around;
     overflow: hidden;
 }
-#head-left
-{
-    float: none;
-    margin-top: 5px;
-    margin-top: 1%;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: left;
-    padding:0.5%;
-    margin-left: 2.5%;
-    width:40%;
-    height:auto;*/
-}
-#head-left img
-{
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
-}
-#head-right
-{
-    float: none;
-    margin-top: 8px;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    line-height: normal;
-    /*
-    float: right;
-    margin:0.5%;
-    width:53%;
-    text-align: right;*/
-}
 .list li a:active
 {
     text-decoration: none;
     background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
     border-radius: 50px;
-}
-.in-line
-{
-    width: 100%;
 }
 footer
 {
@@ -416,17 +368,18 @@ footer
     width: 100%;
     float: none;
     padding:0.5%;
-    text-align: center;
+    text-align: justify;
 }
 .footer1 img
 {
-    width:8%;
-    height: 3.2em;
+    width:6.5%;
+    height: 2.5em;
     padding: 0.5%;
     margin: auto;
 }
 .footer2
 {
+    display: none;
     width: 100%;
     float: none;
     padding:0.5%;
@@ -435,9 +388,6 @@ footer
 .footer2 img
 {
     margin: auto;
-    /*
-    width:15%;
-    height: 7.5em;
-    margin: 0 auto;*/
+    width: 50%;
 }
 }
