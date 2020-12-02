@@ -16,6 +16,10 @@
     flex-direction: column;
     min-height: 100vh;
 }
+#giving
+{
+    font-size: 100pt;
+}
 header
 {
     overflow: hidden;   /*AQUI HICE CAMBIOS*/
@@ -155,6 +159,10 @@ footer
 #head-left img
 {
     width:60%;
+}
+#giving
+{
+    font-size: 75pt;
 }
 span
 { 
