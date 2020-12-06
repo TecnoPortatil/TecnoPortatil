@@ -72,8 +72,8 @@ table td
 .texto-carousel
 {
     font-weight: bold;
-    color:whitesmoke;
-    background-color: red;
+    color:white;
+    background-color: #f56f3a;
     border-radius: 10px;
 }
 #head-left img

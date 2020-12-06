@@ -1,225 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>TecnoPortatil</title>
-        <meta charset="utf-8">
-        <meta name="author" content="Mauricio Martínez">
-        <meta name="keywords" content="Memorias">
-        <meta name="description" content="catálogo de memorias">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" type="text/css" href="CSS/EstiloMemoriasPrincipal.css">
-        <link rel="stylesheet" href="CSS/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <script src="js/Desplegable.js"></script>
-        <script src="https://kit.fontawesome.com/6f21d51ccc.js" crossorigin="anonymous"></script>
-    </head>
-    <body id="cuerpo">
-        <header>
-            <div id="head-left">
-                <a href="index.html"><img src="CSS/img/tp white png.png" alt="logo aqui" title="Tecno Portátil"></a>
+
+<head>
+    <title>TecnoPortatil</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Mauricio Martínez">
+    <meta name="keywords" content="Memorias">
+    <meta name="description" content="catálogo de memorias">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="CSS/EstiloMemoriasPrincipal.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/Desplegable.js"></script>
+    <script src="https://kit.fontawesome.com/6f21d51ccc.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="cuerpo">
+    <header>
+        <div id="head-left">
+            <a href="index.html"><img src="CSS/img/tp white png.png" alt="logo aqui" title="Tecno Portátil"></a>
+        </div>
+        <div id="head-right">
+            <nav>
+                <ul class="list">
+                    <li class="active"><a href="index.html" class="nav-a"><i
+                                class="icono fas fa-home"></i><span>Inicio</span></a></li>
+                    <li class="submenu">
+                        <a href="#" class="nav-a"><i class="icono fas fa-clipboard-list"
+                                id="desple"></i><span>Catálogo</span><i class="icono fas fa-angle-down"></i></a>
+                        <ul class="secondlist">
+                            <li><a href="Home.html">Audífonos</a></li>
+                            <li><a href="Memorias.html">Memorias USB</a></li>
+                            <li><a href="Relojes.html">Relojes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Servicios.html"><i class="icono fas fa-truck"></i><span>Servicios</span></a></li>
+                    <li><a href="Contacto.html" class="nav-a"><i
+                                class="icono fas fa-mobile-alt"></i><span>Contacto</span></a></li>
+                    <li><a href="Nosotros.html" class="nav-a"><i
+                                class="icono fas fa-info-circle"></i></i><span>Nosotros</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Contenido principal-->
+    <div class="container">
+        <h2>Memorias USB con puerto OTG</h2>
+        <!--INFORMACIÓN BÁSICA-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <article class="info">
+                    <h3>¿Conoces el puerto OTG?</h3>
+                    <p>Te lo explicamos:</p>
+                    <p class="text-justify">Conocido como OTG (On-The-Go), es un puerto que te facilita el intercambio
+                        de archivos/información entre un tu computadora y otros dispositivos (Celular, tablet, etc.).
+                    </p>
+                </article>
             </div>
-            <div id="head-right">
-                <nav>
-                    <ul class="list">
-                        <li class="active"><a href="index.html" class="nav-a"><i class="icono fas fa-home"></i><span>Inicio</span></a></li>
-                        <li class="submenu">
-                            <a href="#" class="nav-a"><i class="icono fas fa-clipboard-list" id="desple"></i><span>Catálogo</span><i class="icono fas fa-angle-down"></i></a>
-                            <ul class="secondlist">
-                                <li><a href="Home.html">Audífonos</a></li>
-                                <li><a href="Memorias.html">Memorias USB</a></li>
-                                <li><a href="Relojes.html">Relojes</a></li>
-                            </ul> 
-                        </li>
-                        <li><a href="Servicios.html"><i class="icono fas fa-truck"></i><span>Servicios</span></a></li>
-                        <li><a href="Contacto.html" class="nav-a"><i class="icono fas fa-mobile-alt"></i><span>Contacto</span></a></li>
-                        <li><a href="Nosotros.html" class="nav-a"><i class="icono fas fa-info-circle"></i></i><span>Nosotros</span></a></li>
-                    </ul>
-                </nav>
+        </div>
+        <div class="row">
+            <!--TIPO C-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>USB - Tipo C</h4>
             </div>
-        </header>
-        <!--Contenido principal-->
-            <div class="container">
-                <div class="text-center"><h1>Estamos trabajando en ello</h1></div>
-                <h2>Memorias USB con puerto OTG</h2>
-                <div class="row">
-                    <!--TIPO C--> 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h4>USB - Tipo C</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="64GB - 2.0"></a>
-                            <h5>USB 2.0 - 64GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc"> 
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="128GB - 2.0"></a>
-                            <h5>USB 2.0 - 128GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="64GB - 3.0"></a>
-                            <h5>USB 3.0 - 64GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="128GB - 3.0"></a>
-                            <h5>USB 3.0 - 128GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="CSS/img/WhatsApp Image 2020-12-04 at 2.58.09 PM (3).jpeg" height="300px"
+                            title="64GB - 2.0"></a>
+                    <h5>USB 2.0 - 64GB</h5>
+                    <span class="subt">En existencia</span>
                 </div>
-                <div class="row">
-                    <!--TIPO MICRO USB--> 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h4>USB - Micro USB</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="32GB - 2.0"></a>
-                            <h5>USB 2.0 - 32GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc"> 
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="64GB - 2.0"></a>
-                            <h5>USB 2.0 - 64GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="32GB - 3.0"></a>
-                            <h5>USB 3.0 - 32GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="64GB - 3.0"></a>
-                            <h5>USB 3.0 - 64GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
-                        <div class="in-line">
-                            <a href="#"><img src="#" title="128GB - 3.0"></a>
-                            <h5>USB 3.0 - 128GB</h5>
-                            <span class="subt">En existencia</span>
-                        </div>
-                        <div class="in-line2">
-                            <ul class="ListDesc">
-                                <li></li>
-                                <li></li> 
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-danger">Más detalles</a>
-                        </div>
-                    </div>
-                </div> 
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 64GB</li>
+                        <li>Velocidad 2.0</li>
+                        <li>Puerto: USB + tipo C</li>
+                    </ul>
+                </div>
             </div>
-        <footer>
-            <div class="footer1">
-                <p>Eslogan</p>
-                <P>Contáctanos</P>
-                <a href="https://www.facebook.com/watchitosst/" target="_blank"><img
-                        src="CSS/img/facebook (2).png" title="Visítanos"></a>
-                <a href="https://wa.me/50375893040?text=Estoy%20interesado%20en%20un%20artículo" target="_blank"><img
-                        src="CSS/img/whatsapp (2).png" title="Escríbenos"></a>
-                <a href="tel:50375893040" target="_blank"><img src="CSS/img/smartphone (1).png" title="Llámanos"></a>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="CSS/img/WhatsApp Image 2020-12-04 at 2.58.09 PM (2).jpeg" height="300px"
+                            title="128GB - 2.0"></a>
+                    <h5>USB 2.0 - 128GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 128GB</li>
+                        <li>Velocidad 2.0</li>
+                        <li>Puerto: USB + tipo C</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer2">
-                <img src="CSS/img/tp white png.png" alt="Logo aqui" title="Tecno Portátil">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="CSS/img/WhatsApp Image 2020-12-04 at 2.58.09 PM (4).jpeg" height="300px"
+                            title="64GB - 3.0"></a>
+                    <h5>USB 3.0 - 64GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 64GB</li>
+                        <li>Velocidad 3.0</li>
+                        <li>Puerto: USB + tipo C</li>
+                    </ul>
+                </div>
             </div>
-        </footer>
-    </body>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="CSS/img/WhatsApp Image 2020-12-04 at 2.58.09 PM (4).jpeg" height="300px"
+                            title="128GB - 3.0"></a>
+                    <h5>USB 3.0 - 128GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 128GB</li>
+                        <li>Velocidad 3.0</li>
+                        <li>Puerto: USB + tipo C</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--TIPO MICRO USB-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>USB - Micro USB</h4>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="#" title="32GB - 2.0"></a>
+                    <h5>USB 2.0 - 32GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 32GB</li>
+                        <li>Velocidad 2.0</li>
+                        <li>Puerto: USB + micro USB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="#" title="64GB - 2.0"></a>
+                    <h5>USB 2.0 - 64GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 64GB</li>
+                        <li>Velocidad 2.0</li>
+                        <li>Puerto: USB + micro USB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="#" title="32GB - 3.0"></a>
+                    <h5>USB 3.0 - 32GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 32GB</li>
+                        <li>Velocidad 3.0</li>
+                        <li>Puerto: USB + micro USB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="#" title="64GB - 3.0"></a>
+                    <h5>USB 3.0 - 64GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 64GB</li>
+                        <li>Velocidad 3.0</li>
+                        <li>Puerto: USB + micro USB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="Column">
+                <div class="in-line">
+                    <a href="#"><img src="#" title="128GB - 3.0"></a>
+                    <h5>USB 3.0 - 128GB</h5>
+                    <span class="subt">En existencia</span>
+                </div>
+                <div class="in-line2">
+                    <ul class="ListDesc">
+                        <li>Capacidad: 128GB</li>
+                        <li>Velocidad 3.0</li>
+                        <li>Puerto: USB + micro USB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <p style="color: #f56f3a; font-size: 15pt;"><i>Sin cables la vida es más divertida</i></p>
+            <P>Contáctanos</P>
+            <a href="https://www.facebook.com/watchitosst/" target="_blank"><img src="CSS/img/facebook (2).png"
+                    title="Visítanos"></a>
+            <a href="https://wa.me/50375893040?text=Estoy%20interesado%20en%20un%20artículo" target="_blank"><img
+                    src="CSS/img/whatsapp (2).png" title="Escríbenos"></a>
+            <a href="tel:50375893040" target="_blank"><img src="CSS/img/smartphone (1).png" title="Llámanos"></a>
+        </div>
+        <div class="footer2">
+            <img src="CSS/img/tp white png.png" alt="Logo aqui" title="Tecno Portátil">
+        </div>
+    </footer>
+</body>
+
 </html>
