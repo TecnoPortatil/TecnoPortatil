@@ -155,7 +155,8 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 }
 .in-line img
 {
-    border-radius: 50%;
+    height: 360px;
+    border-radius: 30px;
 }
 .in-line2
 {
